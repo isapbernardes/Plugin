@@ -1,0 +1,65 @@
+2023-07-27T14:41:06+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "br_receita_opcoes" not found or invalid function name in C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php:1445
+Stack trace:
+#0 C:\xampp\htdocs\site.com\blog\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\site.com\blog\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php, na linha 1445
+
+2023-07-27T14:46:03+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "br_receita_opcoes" not found or invalid function name in C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php:1445
+Stack trace:
+#0 C:\xampp\htdocs\site.com\blog\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\site.com\blog\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php, na linha 1445
+
+2023-07-27T15:01:44+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "br_receita_opcoes" not found or invalid function name in C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php:1445
+Stack trace:
+#0 C:\xampp\htdocs\site.com\blog\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\site.com\blog\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php, na linha 1445
+
+2023-07-27T15:03:37+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "br_receita_opcoes" not found or invalid function name in C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php:1445
+Stack trace:
+#0 C:\xampp\htdocs\site.com\blog\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\site.com\blog\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php, na linha 1445
+
+2023-07-27T15:06:21+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "br_receita_opcoes" not found or invalid function name in C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php:1445
+Stack trace:
+#0 C:\xampp\htdocs\site.com\blog\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\site.com\blog\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php, na linha 1445
+
+2023-07-27T15:10:46+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "br_receita_opcoes" not found or invalid function name in C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php:1445
+Stack trace:
+#0 C:\xampp\htdocs\site.com\blog\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 C:\xampp\htdocs\site.com\blog\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\site.com\blog\wp-admin\includes\template.php, na linha 1445
+
+2023-07-27T16:48:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "br_filter_receita_content" not found or invalid function name in C:\xampp\htdocs\site.com\blog\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\site.com\blog\wp-includes\plugin.php(205): WP_Hook->apply_filters('<p>Receita para...', Array)
+#1 C:\xampp\htdocs\site.com\blog\wp-includes\formatting.php(3928): apply_filters('the_content', 'Receita para ca...')
+#2 C:\xampp\htdocs\site.com\blog\wp-includes\class-wp-hook.php(308): wp_trim_excerpt('Receita para ca...', Object(WP_Post))
+#3 C:\xampp\htdocs\site.com\blog\wp-includes\plugin.php(205): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\site.com\blog\wp-includes\post-template.php(431): apply_filters('get_the_excerpt', '', Object(WP_Post))
+#5 C:\xampp\htdocs\site.com\blog\wp-includes\post-template.php(396): get_the_excerpt()
+#6 C:\xampp\htdocs\site.com\blog\wp-content\themes\twentytwentyone\template-parts\excerpt\excerpt.php(12): the_excerpt()
+#7 C:\xampp\htdocs\site.com\blog\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\site.com\blog\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#9 C:\xampp\htdocs\site.com\blog\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp\htdocs\site.com\blog\wp-content\themes\twentytwentyone\template-parts\content\content-excerpt.php(19): get_template_part('template-parts/...', '')
+#11 C:\xampp\htdocs\site.com\blog\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\site.com\blog\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#13 C:\xampp\htdocs\site.com\blog\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#14 C:\xampp\htdocs\site.com\blog\wp-content\themes\twentytwentyone\search.php(54): get_template_part('template-parts/...', '')
+#15 C:\xampp\htdocs\site.com\blog\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\site.com\blog\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\site.com\blog\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown, em C:\xampp\htdocs\site.com\blog\wp-includes\class-wp-hook.php, na linha 308
+

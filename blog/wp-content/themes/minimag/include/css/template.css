@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.top_header {
+    background-color: #222326;
+    height: 45px;
+    border-bottom: 1px solid #414346;
+}
